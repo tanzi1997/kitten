@@ -9,7 +9,7 @@ sudo wget -P /usr/local/bin/ https://github.com/tanzi1997/kitten/releases/downlo
 
 echo "开始安装程序"
 
-sudo chmod -R 777 kitten-server
+sudo chmod -R 777 ./kitten-server
 
 echo "程序启动"
 
