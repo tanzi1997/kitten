@@ -1,11 +1,11 @@
 [Unit]
-Description=kitten-serve
+Description=kitten-server
 
 [Service]
 Type=simple
 Restart=always
 RestartSec=5s
-ExecStart=/usr/local/bin/kitten-serve
+ExecStart=/usr/local/bin/kitten-server
 
 [Install]
 WantedBy=multi-user.target
